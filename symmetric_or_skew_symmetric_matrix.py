@@ -13,6 +13,7 @@ print(mat)
 
 s=0
 ss=0
+x=-1
 for i in range(m):
     for j in range(n):
         if mat[i][j]!=mat[j][i] and mat[i][j]!=(mat[j][i]*x):
